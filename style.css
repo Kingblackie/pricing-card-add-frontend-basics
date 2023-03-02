@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 200px 350px;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+#card {
+  width: 700px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 11px -4px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: 45%;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+}
+
+#top-section h2 {
+  text-decoration: underline;
+  color: #19BDBD;
+  margin-bottom: 20px;
+}
+
+#top-section h4 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+#top-section p {
+  color: #98a6bd;
+  font-size: 0.9rem;
+  line-height: 1.5
+
+}
+
+#bottom-section {
+  width: 100%;
+  height: 55%;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+#bottom-left {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background: #19BDBD;
+  padding: 25px;
+}
+
+#bottom-left h4 {
+margin-bottom: 10px;
+}
+
+#bottom-left p {
+  font-size: 0.8rem;
+}
+
+#bottom-right {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top ;
+  background: #1CD6D6;
+  padding: 25px;
+}
+
+#pricing-categ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#frequency {
+  margin-left: 10px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+button {
+  background: #c0df34;
+  color: #f4f4f4;
+  border: none;
+  margin-top: 20px;
+  padding: 11px;
+  width: 90%;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #A9C42D;
+  cursor: pointer;
+  color: #f4f4f4;
+  transform: scale(1.03);
+  
+
+}
+
+#dollar {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#price {
+  margin-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.83rem;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 2px;
+}
