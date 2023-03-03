@@ -13,8 +13,8 @@ h2, h4, p {
 }
 
 #card {
-  width: 700px;
-  height: 350px;
+  width: 650px;
+  height: 400px;
   border-radius: 5px;
   box-shadow: 4px 4px 11px -4px rgba(0,0,0,0.75);
   overflow: hidden;
@@ -128,4 +128,12 @@ ul {
 
 ul li {
   margin-bottom: 2px;
+}
+
+@media (max-width: 650px) {
+  #bottom-left, #bottom-right, #card {
+    width: 100%;
+    height: auto;
+  }
+
 }
